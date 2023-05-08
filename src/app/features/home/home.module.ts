@@ -10,16 +10,14 @@ import { HomePipe } from './pipes/home.pipe';
 
 
 @NgModule({
-  declarations: [
-    HomeComponent,
-    ViewComponent,
-    ListComponent,
-    TableComponent,
-    HomePipe
-  ],
-  imports: [
-    CommonModule,
-    HomeRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        HomeRoutingModule,
+        HomeComponent,
+        ViewComponent,
+        ListComponent,
+        TableComponent,
+        HomePipe
+    ]
 })
 export class HomeModule { }
